@@ -7,7 +7,7 @@ This folder is meant to be shared by all TikTok projects.
 ## One-time Setup
 
 ```bash
-cd /Users/yingzehou/Documents/Projects/Tiktok/WhisperScript
+cd WhisperScript
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -49,7 +49,7 @@ python transcribe_subtitle_axis.py --mp3 "/path/to/audio.mp3" --skip-transcribe
 All generated files go to:
 
 ```text
-/Users/yingzehou/Documents/Projects/Tiktok/WhisperScript/out/<mp3文件名>_subtitle/
+./out/<mp3文件名>_subtitle/
 ```
 
 Each run writes:
@@ -69,7 +69,7 @@ Each run writes:
 The first run downloads the Whisper model into:
 
 ```text
-/Users/yingzehou/Documents/Projects/Tiktok/WhisperScript/models/
+./models/
 ```
 
 Later runs reuse the cached model.
