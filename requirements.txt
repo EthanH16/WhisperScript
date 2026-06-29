@@ -1,0 +1,3 @@
+# This script uses only Python standard-library modules.
+# System commands required:
+#   brew install whisper-cpp ffmpeg
